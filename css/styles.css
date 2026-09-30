@@ -367,6 +367,7 @@ p { margin: 0 0 1.1em; }
 .prose { max-width: 700px; margin: 0 auto; }
 .prose p { color: #d4d0c8; }
 .prose h2 { margin-top: 1.6em; font-size: clamp(1.6rem, 3vw, 2.1rem); }
+.prose .pull-quote { color: var(--brass-light); }
 
 .split {
   display: grid;
