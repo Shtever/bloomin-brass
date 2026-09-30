@@ -1,0 +1,7 @@
+# Windows / Google Drive
+desktop.ini
+Thumbs.db
+.tmp.drivedownload/
+.tmp.driveupload/
+*.tmp
+.DS_Store
