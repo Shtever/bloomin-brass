@@ -38,7 +38,7 @@
       "</div>" +
       '<div class="body">' +
       "<h3>" + escapeHtml(p.name) + "</h3>" +
-      "<p>" + escapeHtml(p.summary) + "</p>" +
+      "<p>" + escapeHtml(p.description) + "</p>" +
       '<span class="price">' + (p.sold ? "Sold" : money(p.price)) + "</span>" +
       "</div></a>"
     );
@@ -98,8 +98,8 @@
       '<div class="price">' + money(p.price) + "</div>" +
       '<p class="desc">' + escapeHtml(p.description) + "</p>" +
       '<ul class="specs">' +
-      "<li><span>Metal</span><span>Reclaimed brass bullet jackets</span></li>" +
-      (p.beads ? "<li><span>Accents</span><span>" + escapeHtml(p.beads) + "</span></li>" : "") +
+      "<li><span>Metal</span><span>Reclaimed bullet jackets</span></li>" +
+      (p.accents ? "<li><span>Accents</span><span>" + escapeHtml(p.accents) + "</span></li>" : "") +
       (p.earWire ? "<li><span>Findings</span><span>" + escapeHtml(p.earWire) + "</span></li>" : "") +
       "<li><span>Made</span><span>By hand, one pair at a time</span></li>" +
       "</ul>" +
